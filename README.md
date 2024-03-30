@@ -6,9 +6,17 @@ Problem polega na zorganizowaniu imprezy na której będzie jak najwięcej osób
 
 
 
-| Lp | Kategoria | Złożoność |
-|----|-----------|------------|
-| 1  | Algorytm siłowy (rekurencyjny) | O(2^n) |
-| 2  | Algorytm siłowy (iteracyjny)   | O(2^n) |
-| 3  | Algorytm zachłanny             | O(n*log(n)) |
-| 4  | Algorytm genetyczny            | Zależnie od parametrów |
+| Lp | Kategoria                                  | Złożoność          |
+|----|--------------------------------------------|--------------------|
+| 1  | Generator danych                           | O(n)               |
+| 2  | Konwerter danych dla algorytmu genetycznego| O(n)               |
+| 3  | Algorytm siłowy (rekurencyjny)            | O(2^n)             |
+| 4  | Algorytm siłowy (iteracyjny)              | O(2^n)             |
+| 5  | Algorytm zachłanny                         | O(n log(n))        |
+| 6  | Algorytm genetyczny                        | O(n * P * G)       |
+
+Legenda:
+- n: liczba gości
+- P: ilość genomów w populacji
+- G: ilość generacji
+
