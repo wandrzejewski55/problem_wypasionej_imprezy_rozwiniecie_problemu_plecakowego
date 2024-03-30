@@ -1,4 +1,5 @@
 Problem wypasionej imprezy- rozwinięcie problemu plecakowego
+=================================================================
 
 Opis problemu:
 
